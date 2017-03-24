@@ -1,0 +1,20 @@
+{
+    "mapping": {
+        "LCD1602-02/vcc": "ruff-mbd-v1/vdd-8",
+        "LCD1602-02/gnd": "ruff-mbd-v1/gnd-0",
+        "LCD1602-02/i2c": "ruff-mbd-v1/i2c-0",
+        "ky-016/gnd": "ruff-mbd-v1/gnd-1",
+        "ky-016/pwm-r": "ruff-mbd-v1/pwm-0",
+        "ky-016/pwm-g": "ruff-mbd-v1/pwm-1",
+        "ky-016/pwm-b": "ruff-mbd-v1/pwm-2",
+        "fc-49/vcc": "ruff-mbd-v1/vdd-0",
+        "fc-49/gnd": "ruff-mbd-v1/gnd-2",
+        "fc-49/gpio": "ruff-mbd-v1/gpio-11",
+        "gy-30/vcc": "ruff-mbd-v1/vdd-1",
+        "gy-30/gnd": "ruff-mbd-v1/gnd-3",
+        "gy-30/i2c": "ruff-mbd-v1/i2c-0",
+        "sound-01/vcc": "ruff-mbd-v1/vdd-2",
+        "sound-01/gnd": "ruff-mbd-v1/gnd-4",
+        "sound-01/gpio": "ruff-mbd-v1/gpio-12"
+    }
+}

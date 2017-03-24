@@ -1,0 +1,24 @@
+{
+    "name": "hello-ruff",
+    "version": "0.1.0",
+    "description": "",
+    "author": "",
+    "main": "src/index.js",
+    "1main": "src/index1-hello-world.js",
+    "2main": "src/index2-button-led.js",
+    "ruff": {
+        "boards": {
+            "ruff-mbd-v1": "^4.2.2",
+            "*": "*"
+        },
+        "dependencies": {
+            "lcd1602-pcf8574a-hd44780": "^0.2.7",
+            "ky-016": "^2.0.5",
+            "buzzer-gpio": "^0.2.5",
+            "gy-30": "^3.0.6",
+            "sound-01": "^1.1.6",
+            "dht11": "^0.3.5",
+            "button-gpio": "^2.0.6"
+        }
+    }
+}
